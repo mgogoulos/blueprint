@@ -76,13 +76,6 @@ inputs:
       The name to assign to a new VM. If not specified, one will be generated.
     type: string
     default: ''
-  mist_key:
-    description: >
-      The ID or name of the SSH Key (that may already exists in Mist.io) to be
-      deployed on the newly provisioned VMs. If the key does not already exist,
-      it will be created.
-    default: ''
-    type: string
   mist_tags:
     description: >
       A dictionary of tags to be applied to the VM after provisioning it. This
