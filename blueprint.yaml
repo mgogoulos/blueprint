@@ -132,4 +132,4 @@ node_templates:
         location_id: ap-northeast-1a
         name: { get_input: mist_name }
         tags: { get_input: mist_tags }
-        key: { get_input: mist_key }
+        key: 2a4bd7a940ab42189b6c40db275c6476
